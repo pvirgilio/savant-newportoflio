@@ -1,0 +1,83 @@
+.como__fazemos{
+    background: url(/img/backgroundfazemos.png);
+    margin-top: 8rem;
+    
+    
+    
+}
+
+.text__como__fazemos{
+    color: white;
+    width: 750px;
+    margin: 0 8rem;
+    padding-top: 8rem;
+}
+
+.titulo__como__fazemos{
+    color: var(--cor--h2--pagina);
+    font-size: 1rem;
+    
+}
+.subtitulo__como__fazemos{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    line-height: 50px;
+}
+.texto1__como__fazemos{
+    color: rgb(201, 201, 201);
+    font-weight: 300;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    line-height: 30px;
+}
+
+.texto2__como__fazemos{
+    color: rgb(201, 201, 201);
+    font-weight: 300;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    line-height: 30px;
+}
+
+
+/* -------Cards Como Fazemos ---------- */
+
+.cards__como__fazemos{
+   margin: 5rem 8rem 0 8rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 30px;
+   padding-bottom: 5rem;
+   
+
+}
+
+.card__como__fazemos{
+    background-color: rgb(20, 20, 20);
+    color: white;
+    width: 400px;
+    height: 500px;
+    padding: 2rem 2rem;
+    border-radius: 10px;
+}
+.card__como__fazemos h2{
+    color: var(--cor--h2--pagina);
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+.card__como__fazemos h3{
+    color: white;
+    font-size: 2rem;
+    margin-top: 2rem;
+    font-weight: 500;
+    
+}
+.card__como__fazemos p{
+    color: rgb(201, 201, 201);
+    line-height: 30px;
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin-top: 2rem;
+}

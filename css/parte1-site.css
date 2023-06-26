@@ -1,0 +1,37 @@
+
+.parte1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 8rem;
+    
+}
+
+
+.container__texto__parte1{
+    width: 100%;
+  
+}
+
+.span__titulo__parte1{
+    color: var(--cor--span);
+}
+
+.titulo__parte1{
+    font-size: 3.5rem;
+    font-weight: 600;
+    width: 650px;
+    line-height: 70px;
+
+    
+}
+
+.texto__parte1{
+    font-weight: 300;
+    font-size: 1.2rem;
+    width: 500px;
+    color: rgb(80, 80, 80);
+    margin-top: 2rem;
+    line-height: 35px;
+}
+

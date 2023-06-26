@@ -1,0 +1,189 @@
+footer {
+
+    background-color: #15161C;
+    width: 100%;
+    margin-top: 2rem;
+    padding-top: 5rem;
+    position: relative;
+}
+
+.main__footer {
+    display: flex;
+    justify-content: space-between;
+    
+    margin: 0 8rem;
+    
+}
+
+.button_top {
+    position: absolute;
+    top: -1.5rem;
+    right: 5rem;
+    background-color: white;
+    padding: .5rem .5rem;
+    cursor: pointer;
+    border-radius: 25px;
+
+
+}
+
+.button_top svg {
+    color: blue;
+
+
+}
+
+
+
+.atendimento {}
+
+.container__atendimento {
+    margin-top: 2rem;
+}
+
+.titulo__atendimento {
+    color: white;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.atendimento svg {
+    width: 30px;
+
+}
+
+.email__atendimento {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.link__email {
+    text-decoration: none;
+    color: rgb(201, 201, 201);
+}
+
+.link__email:hover {
+    color: rgb(0, 140, 255);
+    transition: all .5s;
+}
+
+.endereco__atendimento {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 1rem;
+
+}
+
+.link__endereco {
+    text-decoration: none;
+    color: rgb(201, 201, 201);
+}
+
+
+.link__endereco:hover {
+    color: rgb(0, 140, 255);
+    transition: all .5s;
+}
+
+.fale__conosco{
+    
+}
+
+.titulo__fale__conosco{
+    color: white;
+}
+
+.texto__fale__conosco{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 2rem;
+}
+
+.texto__fale__conosco a{
+    text-decoration: none;
+    color: rgb(201, 201, 201);
+}
+
+.texto__fale__conosco a:hover{
+    color: rgb(0, 140, 255);
+    transition: all .5s;
+}
+
+.titulo__explore {
+    color: white;
+    font-size: 1.3rem;
+}
+
+.container__explore {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 2rem;
+}
+
+.container__explore a {
+    text-decoration: none;
+    color: rgb(201, 201, 201);
+    font-weight: 400;
+}
+
+.container__explore a:hover {
+    color: rgb(0, 140, 255);
+    transition: all .5s;
+}
+
+.titulo_nosacompanhe {
+    color: white;
+    font-size: 1.3rem;
+}
+
+.icons__social {
+    margin-top: 2rem;
+    display: flex;
+    gap: 10px;
+}
+
+.icons__social svg {
+    width: 30px;
+
+}
+
+.copyright {
+    color: white;
+    margin: 5rem 8rem 0 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.linha__footer {
+    height: 1px;
+    color: white;
+    background: linear-gradient(to right, transparent, #4e5269, transparent);
+    margin: 10px 0;
+
+}
+
+.savant_logo_footer {
+    width: 50px;
+}
+
+.texto__copyright {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    
+}
+
+.texto__copyright{
+    font-weight: 400;
+}
+
+.span__savant__footer{
+    font-weight: 700;
+}

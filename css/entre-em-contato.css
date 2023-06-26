@@ -1,0 +1,71 @@
+.projeto__entre__em__contato{
+    position: relative;
+    padding: 7rem 0;
+}
+
+.texto__entre__em__contato{
+    width: 700px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.titulo__entre__em__contato{
+
+    color: var(--cor--h2--pagina);
+    text-transform: uppercase;
+    font-size: 1rem;
+    
+}
+
+.subtitulo__entre__em__contato{
+    font-size: 2rem;
+    margin-top: 1rem;
+    font-weight: 600;
+    line-height: 50px;
+    
+}
+
+.span__entre__em__contato{
+    color: var(--cor--span);
+}
+
+.texto__entre__em__contato{
+    font-size: 1.1rem;
+    margin-top: 2rem;
+    line-height: 30px;
+}
+
+.button__projeto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid blue;
+    width: fit-content;
+    margin: 1rem auto;
+    padding: .5rem 1rem;
+    border-radius: 10px;
+}
+
+.link__meu__projeto{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+
+}
+
+.img1__contato{
+    width: 350px;
+    position: absolute;
+    top: 30%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    
+}
+.img2__contato{
+    width: 300px;
+    position: absolute;
+    
+    top: 80%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}

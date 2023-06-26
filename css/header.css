@@ -1,0 +1,58 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    align-items: center;
+    margin: 0 8rem;
+
+}
+
+.logo__menu {
+    display: flex;
+    align-items: center;
+}
+
+.img__logo__savant {
+    width: 50px;
+}
+
+.nome__savant {
+    font-weight: 600;
+    font-size: 2rem;
+    color: black;
+}
+
+.nome__savant span {
+    color: blue;
+}
+
+.menu__header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu__header a {
+    text-decoration: none;
+    color: gray;
+    font-weight: 400;
+    
+    font-size: 1rem;
+}
+
+.button__contato {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 1rem 1rem;
+    display: flex;
+    align-items: center;
+    
+}
+
+a.entre__em__contato{
+    color: black;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-left: .5rem;
+   
+}
