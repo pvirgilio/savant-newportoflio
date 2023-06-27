@@ -8,12 +8,22 @@
     
  }
 
+ .container__img__ecommerce{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(202, 202, 202);
+    border-radius: 50px;
+ }
+
 
 .img__ecommerce{
     width: 320px;
     height: 250px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(241, 241, 241, 0.2);
     border-radius: 50px;
+    padding: 1rem 1rem;
 }
 
 .text__projeto__home{
@@ -93,5 +103,15 @@
     height: 250px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 50px;
+    padding: 1rem 1rem;
     
 }
+
+ .container__img__clinica{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 50px;
+ }
