@@ -1,35 +1,31 @@
 .quem__somos{
     display: flex;
     align-items: center;
-    margin: 0 8rem;
-    justify-content: space-around;
+   flex-direction: column;
+   justify-content: center;
+   padding: 1rem 1rem;
+   margin-top: 2rem;
 }
 
 .container__quemsomos{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: flex-start;
+    text-align: center;
 }
 
-.quem__somos svg{
-    width: 60%;
+.texto__quemsomos{
+    font-size: var(--tamanha--h2--padrao);
+    font-weight: 600;
+    margin-top: 1rem;
+    line-height: 35px;
+    padding: 0 1rem;
 }
+
 
 .quem__somos__titulo{
     text-transform: uppercase;
     color: var(--cor--h2--pagina);
-    font-size: 1rem;
-}
-
-.texto__quemsomos{
-    width: 700px;
-    font-size: 2.1rem;
-    font-weight: 600;
-    margin-top: 1rem;
-    line-height: 50px;
+    font-size: 0.8rem;
 }
 
 .span__texto__quemsomos{
-    color: var(--cor--span);
+    color: var(--cor--h2--pagina);
 }

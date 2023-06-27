@@ -1,31 +1,28 @@
 @import url(./header.css);
-@import url(./parte1-site.css);
-@import url(./svgInicial.css);
-@import url(./subtopics.css);
+@import url(./parte1.css);
 @import url(./quemsomos.css);
 @import url(./propostas.css);
-@import url(./projetosHome.css);
+@import url(./produtos-homes.css);
 @import url(./comofazemos.css);
 @import url(./desenvweb.css);
-@import url(./footer.css);
 @import url(./entre-em-contato.css);
-
+@import url(./footer.css);
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+
+
+body{
     font-family: var(--fonte--principal);
-    scroll-behavior: smooth;
+    
 }
 
 :root{
     --fonte--principal: 'Inter', sans-serif;
-    --cor--span: blue;
     --cor--h2--pagina: blue;
-    --cor--texto--footer: rgb(201, 201, 201);
-
+    --span: blue;
+    --tamanha--h2--padrao: 1.7rem;
 }
-
-
-
-

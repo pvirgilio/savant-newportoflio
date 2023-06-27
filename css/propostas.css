@@ -1,23 +1,23 @@
 .propostas{
-    
-    text-align: center;
-    width: 800px;
-    margin: 0 auto;
-    margin-top: 2rem;
-   
+    padding: 1rem 1rem;
 }
+
 
 .titulo__propostas{
     text-transform: uppercase;
-    font-size: 1rem;
     color: var(--cor--h2--pagina);
+    font-size: 0.8rem;
 }
 
 .subtitulo__propostas{
-    font-size: 2.5rem;
     font-weight: 600;
-    margin-top: .5rem;
-    line-height: 50px;
+    margin-top: 1rem;
+    line-height: 35px;
+    font-size: var(--tamanha--h2--padrao);
+}
+.span__subtitulo__propostas{
+    color: var(--span);
+    
 }
 
 .texto__propostas{
@@ -25,10 +25,4 @@
     font-size: 1.1rem;
     color: rgb(80, 80, 80);
     line-height: 30px;
-    
 }
-
-.span__subtitulo__propostas{
-    color: var(--cor--span);
-}
-

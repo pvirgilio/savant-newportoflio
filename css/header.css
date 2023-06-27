@@ -1,58 +1,61 @@
-header {
+header{
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    padding: 1rem 0;
-    align-items: center;
-    margin: 0 8rem;
-
+    padding: 1rem 1rem;
+    width: 100%;
+    
+    
 }
 
-.logo__menu {
+.logo_savant{
     display: flex;
     align-items: center;
+    width: 200px;
+    
 }
 
-.img__logo__savant {
-    width: 50px;
+.nome_savant{
+    font-size: 1.5rem;
 }
 
-.nome__savant {
-    font-weight: 600;
-    font-size: 2rem;
-    color: black;
+.img_logosavant{
+    width: 30px;
 }
 
-.nome__savant span {
+.span_savantLogo{
     color: blue;
 }
 
-.menu__header {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-}
-
-.menu__header a {
-    text-decoration: none;
-    color: gray;
-    font-weight: 400;
-    
-    font-size: 1rem;
-}
-
-.button__contato {
-    border: 1px solid gray;
-    border-radius: 5px;
-    padding: 1rem 1rem;
-    display: flex;
-    align-items: center;
+.menu{
     
 }
 
-a.entre__em__contato{
-    color: black;
-    font-weight: 500;
-    font-size: 1rem;
-    margin-left: .5rem;
+.menu_button{
    
+}
+
+.container_menu{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    display: none;
+    
+}
+
+.button_contato_header svg{
+    color: black;
+    font-size: 40px;
+    
+}
+.button_contato_header a{
+    width: 200px;
+    
+}
+
+.button_contato_header{
+    display: flex;
+    align-items: center;
+    
+    flex-direction: row-reverse;
 }
