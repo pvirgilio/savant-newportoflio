@@ -23,7 +23,7 @@
     height: 250px;
     box-shadow: 0 4px 8px rgba(241, 241, 241, 0.2);
     border-radius: 50px;
-    padding: 1rem 1rem;
+    padding: .5rem .5rem;
 }
 
 .text__projeto__home{
@@ -103,7 +103,7 @@
     height: 250px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 50px;
-    padding: 1rem 1rem;
+    padding: .5rem .5rem;
     
 }
 
