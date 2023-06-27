@@ -12,17 +12,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 320px;
+    width: 100%;
+    height: 100%;
     margin: 0 auto;
-    background-color: rgb(202, 202, 202);
+    background-color: black;
     border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(241, 241, 241, 0.2);
  }
 
 
 .img__ecommerce{
     width: 100%;
-    height: 250px;
-    box-shadow: 0 4px 8px rgba(241, 241, 241, 0.2);
+    height: 100%;
+    
     border-radius: 50px;
     padding: 1rem 1rem;
 }
@@ -101,8 +103,8 @@
 
 .img__clinica{
     width: 100%;
-    height: 250px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: 100%;
+    
     border-radius: 50px;
     padding: 1rem 1rem;
     
@@ -112,8 +114,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 320px;
+    width: 100%;
+    height: 100%;
     margin: 0 auto;
     background-color: aliceblue;
     border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
  }
