@@ -24,7 +24,7 @@ header{
 }
 
 .span_savantLogo{
-    color: blue;
+    color: var(--span);
 }
 
 .menu{

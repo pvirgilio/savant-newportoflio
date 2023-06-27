@@ -23,7 +23,7 @@
 }
 
 .span__titulo__parte1{
-    color: blue;
+    color: var(--span);
 }
 
 .texto__parte1{
