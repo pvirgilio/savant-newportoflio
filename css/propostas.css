@@ -1,5 +1,6 @@
 .propostas{
-    padding: 1rem 1rem;
+    padding: 1rem 1.3rem;
+    text-align: center;
 }
 
 
@@ -12,8 +13,9 @@
 .subtitulo__propostas{
     font-weight: 600;
     margin-top: 1rem;
-    line-height: 35px;
-    font-size: var(--tamanha--h2--padrao);
+    line-height: 40px;
+    font-size: 2rem;
+    
 }
 .span__subtitulo__propostas{
     color: var(--span);
@@ -22,7 +24,8 @@
 
 .texto__propostas{
     margin-top: 1rem;
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: rgb(80, 80, 80);
-    line-height: 30px;
+    line-height: 25px;
+    font-weight: 500;
 }

@@ -1,14 +1,24 @@
 .parte1{
-    padding: 1rem 1rem;
+    padding: 0rem 1.3rem;
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
+.savant_web_titulo{
+    text-transform: uppercase;
+    color: var(--cor--h2--pagina);
+    font-size: 0.8rem;
+}
+
 .titulo__parte1{
-    line-height: 35px;
-    font-size: 1.7rem;
+    width: 100%;
+    height: 100%;
+    line-height: 45px;
+    font-size: 2.3rem;
+    margin-top: 1rem;
     font-weight: 600;
 }
 
@@ -18,17 +28,25 @@
 
 .texto__parte1{
     margin-top: 1rem;
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: rgb(80, 80, 80);
-    line-height: 30px;
+    line-height: 25px;
+}
+
+.parte1 svg{
+    margin-top: 1rem;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .parte1{
         flex-direction: row;
+        padding: 0rem 2rem;
     }
 
     .container__texto__parte1{
         width: 70%;
+    }
+    .container__texto__parte1 p{
+        width: 90%;
     }
 }

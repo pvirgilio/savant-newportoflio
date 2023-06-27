@@ -1,10 +1,11 @@
 .projetos__home{
-    margin-top: 2rem;
-    padding: 1rem 1rem;
+    margin-top: 1rem;
+    padding: 1rem 1.3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: left;
     
  }
 
@@ -43,33 +44,35 @@
 .subtitulo_ecommerce{
     font-weight: 600;
     margin-top: 1rem;
-    line-height: 35px;
-    font-size: var(--tamanha--h2--padrao);
+    line-height: 40px;
+    font-size: 1.8rem;
 }
 
 .texto1__ecommerce{
     margin-top: 1rem;
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: rgb(80, 80, 80);
-    line-height: 30px;
+    line-height: 25px;
+    font-weight: 500;
 }
 
 .texto2__ecommerce{
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: rgb(80, 80, 80);
     font-weight: 300;
     margin-top: 1rem;
-    line-height: 30px;
+    line-height: 25px;
 }
 
  /* ------- Projeto Clínica ----------- */
 
  .projeto__clinica{
-    margin-top: 5rem;
+    margin-top: 3rem;
  }
 
  .texto__projeto__clinica{
     margin-top: 1rem;
+    text-align: left;
  }
 
  .titulo__clinica{
@@ -80,25 +83,26 @@
  }
 
  .subtitulo__clinica{
-    line-height: 35px;
-    font-size: 1.7rem;
+    line-height: 40px;
+    font-size: 1.8rem;
     font-weight: 600;
     margin-top: 1rem;
  }
 
  .texto1__clinica{
     margin-top: 1rem;
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: rgb(73, 73, 73);
-    line-height: 30px;
+    line-height: 25px;
+    font-weight: 500;
  }
 
  .texto2__clinica{
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: rgb(80, 80, 80);
     font-weight: 300;
     margin-top: 1rem;
-    line-height: 30px;
+    line-height: 25px;
 }
 
 .img__clinica{

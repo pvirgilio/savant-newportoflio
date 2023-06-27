@@ -22,7 +22,11 @@ body{
 
 :root{
     --fonte--principal: 'Inter', sans-serif;
-    --cor--h2--pagina: blue;
-    --span: blue;
+    --cor--h2--pagina: #017bf3;
+    --span:#017bf3;
     --tamanha--h2--padrao: 1.7rem;
+}
+
+main{
+    
 }

@@ -3,20 +3,20 @@
     align-items: center;
    flex-direction: column;
    justify-content: center;
-   padding: 1rem 1rem;
+   padding: 1rem 1.3rem;
    margin-top: 2rem;
 }
 
 .container__quemsomos{
-    text-align: center;
+    text-align: left;
 }
 
 .texto__quemsomos{
-    font-size: var(--tamanha--h2--padrao);
+    line-height: 40px;
+    font-size: 2rem;
     font-weight: 600;
     margin-top: 1rem;
-    line-height: 35px;
-    padding: 0 1rem;
+    text-align: left;
 }
 
 
@@ -25,6 +25,8 @@
     color: var(--cor--h2--pagina);
     font-size: 0.8rem;
 }
+
+
 
 .span__texto__quemsomos{
     color: var(--cor--h2--pagina);
