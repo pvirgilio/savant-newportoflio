@@ -15,8 +15,8 @@
     width: 100%;
     height: 100%;
     margin: 0 auto;
-    background-color: black;
-    border-radius: 50px;
+    background-color: rgb(221, 221, 221);
+    border-radius: 10px;
     box-shadow: 0 4px 8px rgba(241, 241, 241, 0.2);
  }
 
@@ -24,8 +24,8 @@
 .img__ecommerce{
     width: 100%;
     height: 100%;
+    border-radius: 20px;
     
-    border-radius: 50px;
     padding: 1rem 1rem;
 }
 
@@ -89,7 +89,7 @@
  .texto1__clinica{
     margin-top: 1rem;
     font-size: 1.1rem;
-    color: rgb(80, 80, 80);
+    color: rgb(73, 73, 73);
     line-height: 30px;
  }
 
@@ -105,7 +105,7 @@
     width: 100%;
     height: 100%;
     
-    border-radius: 50px;
+    border-radius: 20px;
     padding: 1rem 1rem;
     
 }
@@ -118,6 +118,8 @@
     height: 100%;
     margin: 0 auto;
     background-color: aliceblue;
-    border-radius: 50px;
+    border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
  }
+
+ 

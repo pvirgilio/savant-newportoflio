@@ -22,3 +22,13 @@
     color: rgb(80, 80, 80);
     line-height: 30px;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .parte1{
+        flex-direction: row;
+    }
+
+    .container__texto__parte1{
+        width: 70%;
+    }
+}
