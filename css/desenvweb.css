@@ -136,6 +136,7 @@
 
     .subtitulo__desenvolvimento__web {
         width: 70%;
+
     }
 
     .paragrafo__desenvolvimento__web {
@@ -147,7 +148,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 0 1.3rem;
+        width: 50%;
 
 
 
@@ -195,14 +196,14 @@
 
     .card__desenvolvimento__web h2 {
         width: fit-content;
-        padding: 0;
+        padding: 0 1.3rem;
         margin: 0;
 
 
     }
 
     .container__img__desenvolvimento__web {
-        width: 100%;
+        width: 50%;
         height: 100%;
         border-radius: 25px 0 0 25px;
 
@@ -231,6 +232,8 @@
         align-items: center;
         justify-content: center;
         padding: 0 1.3rem;
+        width: 50%;
+        height: auto;
 
 
 
@@ -239,13 +242,15 @@
     .container__cards__desenvolvimento__web {
         gap: 0;
         justify-content: center;
+        padding: 0 8rem;
+        margin: 0 auto;
 
     }
 
     .card__desenvolvimento__web {
         width: 100%;
         flex-direction: row;
-        padding: 0;
+        padding: 1rem 0;
         margin: 0;
         gap: 0;
         margin: 1rem 0;
@@ -285,9 +290,11 @@
     }
 
     .container__img__desenvolvimento__web {
-        width: 100%;
+        width: 50%;
         height: 100%;
         border-radius: 25px 0 0 25px;
+        padding: 0;
+        margin: 0;
 
     }
 

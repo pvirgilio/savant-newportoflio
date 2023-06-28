@@ -152,7 +152,10 @@ header {
         background-color: none;
         animation: none;
         position: inherit;
-        justify-content: space-evenly;
+        gap: 20px;
+        justify-content: right;
+        white-space: nowrap;
+        margin: 0;
     }
 
     .container_menu a {
@@ -180,7 +183,7 @@ header {
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
     header {
         width: 100%;
-        padding: 1rem 1.3rem;
+        padding: 1rem 8rem;
 
     }
 
@@ -195,10 +198,11 @@ header {
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
-        gap: 30px;
         background-color: none;
         animation: none;
         position: inherit;
+        gap: 20px;
+        justify-content: right;
     }
 
     .container_menu a {
@@ -231,7 +235,10 @@ header {
 
     }
 
-    .menu {}
+    .menu {
+        display: flex;
+        justify-content: right;
+    }
 
     .menu_button {
         display: none;
@@ -242,10 +249,11 @@ header {
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
-        gap: 30px;
         background-color: none;
         animation: none;
         position: inherit;
+        gap: 20px;
+        justify-content: right;
     }
 
     .container_menu a {
