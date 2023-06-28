@@ -149,10 +149,10 @@ header {
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
-        gap: 30px;
         background-color: none;
         animation: none;
         position: inherit;
+        justify-content: space-evenly;
     }
 
     .container_menu a {
