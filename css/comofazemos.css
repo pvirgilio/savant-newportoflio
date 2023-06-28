@@ -1,29 +1,29 @@
-.como__fazemos{
+.como__fazemos {
     background: url(/img/backgroundfazemos.png);
     margin-top: 3rem;
-   
+
 }
 
-.text__como__fazemos{
+.text__como__fazemos {
     color: white;
     padding: 3rem 1.3rem 0 1.3rem;
-    
+
 }
 
-.titulo__como__fazemos{
+.titulo__como__fazemos {
     text-transform: uppercase;
     color: var(--cor--h2--pagina);
     font-size: 0.8rem;
 }
 
-.subtitulo__como__fazemos{
+.subtitulo__como__fazemos {
     font-size: 2rem;
     font-weight: 600;
     margin-top: 1rem;
     line-height: 40px;
 }
 
-.texto1__como__fazemos{
+.texto1__como__fazemos {
     color: rgb(240, 240, 240);
     font-weight: 300;
     margin-top: 1rem;
@@ -31,7 +31,7 @@
     line-height: 25px;
 }
 
-.texto2__como__fazemos{
+.texto2__como__fazemos {
     color: rgb(240, 240, 240);
     font-weight: 300;
     margin-top: 1rem;
@@ -42,7 +42,7 @@
 
 /* -------Cards Como Fazemos ---------- */
 
-.cards__como__fazemos{
+.cards__como__fazemos {
     padding: 2rem 1.3rem;
     display: flex;
     align-items: center;
@@ -53,28 +53,28 @@
 
 }
 
-.card__como__fazemos{
+.card__como__fazemos {
     background-color: rgb(34, 34, 34);
     color: white;
     padding: 2rem 2rem;
     border-radius: 10px;
 }
 
-.card__como__fazemos h2{
+.card__como__fazemos h2 {
     color: var(--cor--h2--pagina);
     font-size: 0.8rem;
     margin-top: 1rem;
 }
 
-.card__como__fazemos h3{
+.card__como__fazemos h3 {
     color: white;
     font-size: 1.8rem;
     margin-top: 1rem;
     font-weight: 600;
-    
+
 }
 
-.card__como__fazemos p{
+.card__como__fazemos p {
     color: rgb(201, 201, 201);
     line-height: 25px;
     font-size: 1rem;
@@ -82,50 +82,125 @@
     margin-top: 1rem;
 }
 
-.card__como__fazemos svg{
+.card__como__fazemos svg {
     stroke: #017bf3;
 }
 
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
-    .text__como__fazemos{
+    .text__como__fazemos {
         width: 80%;
         padding: 2rem 1.3rem;
     }
-    .card__como__fazemos{
+
+    .card__como__fazemos {
         width: 70%;
     }
 
-    .card__como__fazemos p{
+    .card__como__fazemos p {
         width: 100%;
     }
-    .card__como__fazemos h2{
+
+    .card__como__fazemos h2 {
         width: fit-content;
     }
 
-   
+
 }
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    .text__como__fazemos{
+    .cards__como__fazemos {
+        flex-direction: row;
+        gap: 20px;
+        padding-bottom: 4rem;
+    }
+
+    .card__como__fazemos {
+        width: 100%;
+        height: 600px;
+    }
+
+    .text__como__fazemos {
         width: 70%;
         padding: 2rem 1.3rem;
     }
 
-    .cards__como__fazemos{
-        
 
-    }
-
-    .card__como__fazemos{
-        width: 50%;
-    }
-
-    .card__como__fazemos p{
+    .card__como__fazemos p {
         width: 100%;
     }
-    .card__como__fazemos h2{
+
+    .card__como__fazemos h2 {
         width: fit-content;
     }
 
-   
+
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+
+    .como__fazemos {
+        margin-top: 6rem;
+    }
+
+    .text__como__fazemos {
+        width: 70%;
+        padding: 2rem 1.3rem;
+    }
+
+    .cards__como__fazemos {
+        flex-direction: row;
+        gap: 20px;
+        padding-bottom: 4rem;
+    }
+
+    .card__como__fazemos {
+        width: 100%;
+        height: 450px;
+    }
+}
+
+@media screen and (min-width: 1281px) {
+
+    .texto1__como__fazemos,
+    .texto2__como__fazemos {
+        font-size: 1.2rem;
+        width: 50%;
+        line-height: 35px;
+    }
+
+    .como__fazemos {
+        margin-top: 6rem;
+    }
+
+    .text__como__fazemos {
+        width: 100%;
+        padding: 2rem 8rem;
+    }
+
+    .subtitulo__como__fazemos {
+        width: 50%;
+        font-size: 3rem;
+        line-height: 50px;
+    }
+
+    .cards__como__fazemos {
+        flex-direction: row;
+        gap: 20px;
+
+        padding: 0 8rem 4rem 8rem;
+    }
+
+    .card__como__fazemos {
+        width: 400px;
+        height: 450px;
+    }
+
+    .card__como__fazemos p {
+        font-size: 1.1rem;
+        line-height: 30px;
+        font-weight: 400;
+    }
+
+
 }

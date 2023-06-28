@@ -1,17 +1,17 @@
-.quem__somos{
+.quem__somos {
     display: flex;
     align-items: center;
-   flex-direction: column;
-   justify-content: center;
-   padding: 1rem 1.3rem;
-   margin-top: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 1.3rem;
+    margin-top: 2rem;
 }
 
-.container__quemsomos{
+.container__quemsomos {
     text-align: left;
 }
 
-.texto__quemsomos{
+.texto__quemsomos {
     line-height: 40px;
     font-size: 2rem;
     font-weight: 600;
@@ -20,7 +20,7 @@
 }
 
 
-.quem__somos__titulo{
+.quem__somos__titulo {
     text-transform: uppercase;
     color: var(--cor--h2--pagina);
     font-size: 0.8rem;
@@ -28,31 +28,57 @@
 
 
 
-.span__texto__quemsomos{
+.span__texto__quemsomos {
     color: var(--cor--h2--pagina);
 }
 
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
-    .quem__somos{
+    .quem__somos {
         margin-top: 5rem;
     }
-    .texto__quemsomos{
+
+    .texto__quemsomos {
         width: 90%;
         line-height: 45px;
     }
 }
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    .quem__somos{
+    .quem__somos {
         flex-direction: row;
         margin-top: 7rem;
         padding: 0 1.3rem;
     }
 
-    .texto__quemsomos{
+    .texto__quemsomos {
         line-height: 45px;
-        
+
     }
 }
 
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .quem__somos {
+        flex-direction: row;
+        margin-top: 7rem;
+        padding: 0 1.3rem;
+    }
 
+    .texto__quemsomos {
+        line-height: 45px;
+
+    }
+}
+
+@media screen and (min-width: 1281px) {
+    .quem__somos {
+        flex-direction: row;
+        margin-top: 1rem;
+        padding: 0 8rem;
+    }
+
+    .texto__quemsomos {
+        line-height: 45px;
+
+    }
+}

@@ -1,47 +1,49 @@
-.projeto__entre__em__contato{
-    padding: 0 1.3rem ;
+.projeto__entre__em__contato {
+    padding: 0 1.3rem;
     margin: 3rem 0;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-   
+
 }
 
-.texto__entre__em__contato{
+.texto__entre__em__contato {
     text-align: center;
     margin: 0 auto;
 }
 
-.titulo__entre__em__contato{
+.titulo__entre__em__contato {
 
     color: var(--cor--h2--pagina);
     text-transform: uppercase;
     font-size: 0.8rem;
-    
+
 }
 
-.subtitulo__entre__em__contato{
+.subtitulo__entre__em__contato {
     font-size: 1.8rem;
     font-weight: 600;
     line-height: 40px;
-    
+    width: 100%;
+    margin-top: 1rem;
+
 }
 
-.span__entre__em__contato{
+.span__entre__em__contato {
     color: var(--span);
 }
 
-.texto__entre__em__contato{
+.texto__entre__em__contato {
     font-size: 1rem;
-
+    width: 70%;
     margin-top: 1rem;
     line-height: 25px;
     margin-top: 2rem;
 }
 
-.button__projeto{
+.button__projeto {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,24 +54,63 @@
     border-radius: 10px;
 }
 
-.button__projeto svg{
+.button__projeto svg {
     stroke: #017bf3;
 }
 
-.link__meu__projeto{
+.link__meu__projeto {
     text-decoration: none;
     color: black;
     font-weight: 600;
 
 }
 
-.img1__contato{
+.img1__contato {
     width: 350px;
     margin: 0 auto;
-    
 
-    
+
+
 }
-.img2__contato{
+
+.img2__contato {
     width: 350px;
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .subtitulo__entre__em__contato {
+        width: 100%;
+        margin: 0 auto;
+
+    }
+
+    .texto__entre__em__contato {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .subtitulo__entre__em__contato {
+        width: 80%;
+        margin: 0 auto;
+
+    }
+
+    .texto__entre__em__contato {
+        width: 70%;
+    }
+
+}
+
+@media screen and (min-width: 1281px) {
+    .subtitulo__entre__em__contato {
+        width: 80%;
+        margin: 0 auto;
+
+    }
+
+    .texto__entre__em__contato {
+        width: 60%;
+        font-size: 1.2rem;
+    }
 }

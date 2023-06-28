@@ -1,4 +1,4 @@
-.parte1{
+.parte1 {
     padding: 0rem 1.3rem;
     margin-top: 2rem;
     display: flex;
@@ -7,13 +7,13 @@
     justify-content: center;
 }
 
-.savant_web_titulo{
+.savant_web_titulo {
     text-transform: uppercase;
     color: var(--cor--h2--pagina);
     font-size: 0.8rem;
 }
 
-.titulo__parte1{
+.titulo__parte1 {
     width: 100%;
     height: 100%;
     line-height: 45px;
@@ -22,34 +22,34 @@
     font-weight: 600;
 }
 
-.span__titulo__parte1{
+.span__titulo__parte1 {
     color: var(--span);
 }
 
-.texto__parte1{
+.texto__parte1 {
     margin-top: 1rem;
     font-size: 1rem;
     color: rgb(80, 80, 80);
     line-height: 25px;
 }
 
-.parte1 svg{
+.parte1 svg {
     margin-top: 1rem;
 }
 
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
-    .parte1{
+    .parte1 {
         width: 100%;
         margin-top: 3rem;
     }
 
-    .container__texto__parte1 p{
+    .container__texto__parte1 p {
         width: 100%;
         font-size: 1.1rem;
     }
 
-    .titulo__parte1{
+    .titulo__parte1 {
         width: 100%;
         font-size: 2.4rem;
     }
@@ -57,25 +57,90 @@
 
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    .parte1{
+    .parte1 {
         flex-direction: row;
         padding: 0 1.3rem;
         margin-top: 2rem;
     }
 
-    .container__texto__parte1{
+    .container__texto__parte1 {
         width: 70%;
-        
+
     }
-    .container__texto__parte1 p{
+
+    .container__texto__parte1 p {
         width: 90%;
         font-size: 1.1rem;
         line-height: 30px;
     }
 
-    .titulo__parte1{
+    .titulo__parte1 {
         width: 100%;
         font-size: 3rem;
         line-height: 50px;
     }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .parte1 {
+        flex-direction: row;
+        padding: 0 1.3rem;
+        margin: 0;
+    }
+
+    .container__texto__parte1 {
+        width: 70%;
+
+    }
+
+    .container__texto__parte1 p {
+        width: 90%;
+        font-size: 1.1rem;
+        line-height: 30px;
+    }
+
+    .titulo__parte1 {
+        width: 100%;
+        font-size: 3rem;
+        line-height: 50px;
+    }
+}
+
+@media screen and (min-width: 1281px) {
+    .parte1 {
+        flex-direction: row;
+        padding: 0 8rem;
+        margin: 0;
+        justify-content: space-between;
+
+
+    }
+
+
+
+    .container__texto__parte1 {
+        width: 60%;
+
+    }
+
+    .container__texto__parte1 p {
+        width: 80%;
+        font-size: 1.1rem;
+        line-height: 30px;
+    }
+
+    .titulo__parte1 {
+        width: 80%;
+        font-size: 4rem;
+        line-height: 70px;
+    }
+
+    .parte1 svg {
+        margin: 0;
+        padding: 0;
+        max-width: 600px;
+    }
+
+
+
 }

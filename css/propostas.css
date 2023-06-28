@@ -1,28 +1,29 @@
-.propostas{
+.propostas {
     padding: 1rem 1.3rem;
     text-align: center;
 }
 
 
-.titulo__propostas{
+.titulo__propostas {
     text-transform: uppercase;
     color: var(--cor--h2--pagina);
     font-size: 0.8rem;
 }
 
-.subtitulo__propostas{
+.subtitulo__propostas {
     font-weight: 600;
     margin-top: 1rem;
     line-height: 40px;
     font-size: 2rem;
-    
-}
-.span__subtitulo__propostas{
-    color: var(--span);
-    
+
 }
 
-.texto__propostas{
+.span__subtitulo__propostas {
+    color: var(--span);
+
+}
+
+.texto__propostas {
     margin-top: 1rem;
     font-size: 1rem;
     color: rgb(80, 80, 80);
@@ -33,8 +34,8 @@
 
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
-    
-    .texto__propostas{
+
+    .texto__propostas {
         width: 80%;
         margin: 0 auto;
         margin-top: 1rem;
@@ -44,14 +45,54 @@
 
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    .propostas{
+    .propostas {
         margin-top: 4rem;
         padding: 0 1.3rem;
     }
-    .texto__propostas{
-        width: 70%;
+
+    .texto__propostas {
+        width: 50%;
         margin: 0 auto;
         margin-top: 1rem;
         font-size: 1.1rem;
-        line-height: 30px;    }
+        line-height: 30px;
+    }
+
+    .subtitulo__propostas {
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .subtitulo__propostas {
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 1rem;
+    }
+
+    .texto__propostas {
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 1rem;
+        font-size: 1.1rem;
+        line-height: 30px;
+    }
+}
+
+@media screen and (min-width: 1281px) {
+    .subtitulo__propostas {
+        width: 60%;
+        margin: 1rem auto;
+
+    }
+
+    .texto__propostas {
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        line-height: 30px;
+    }
 }
