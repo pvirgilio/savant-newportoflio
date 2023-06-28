@@ -86,3 +86,46 @@
     stroke: #017bf3;
 }
 
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .text__como__fazemos{
+        width: 80%;
+        padding: 2rem 1.3rem;
+    }
+    .card__como__fazemos{
+        width: 70%;
+    }
+
+    .card__como__fazemos p{
+        width: 100%;
+    }
+    .card__como__fazemos h2{
+        width: fit-content;
+    }
+
+   
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .text__como__fazemos{
+        width: 70%;
+        padding: 2rem 1.3rem;
+    }
+
+    .cards__como__fazemos{
+        
+
+    }
+
+    .card__como__fazemos{
+        width: 50%;
+    }
+
+    .card__como__fazemos p{
+        width: 100%;
+    }
+    .card__como__fazemos h2{
+        width: fit-content;
+    }
+
+   
+}

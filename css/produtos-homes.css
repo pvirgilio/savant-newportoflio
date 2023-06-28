@@ -10,24 +10,25 @@
  }
 
  .container__img__ecommerce{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin: 0 auto;
     width: 100%;
     height: 100%;
-    margin: 0 auto;
     background-color: rgb(221, 221, 221);
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(241, 241, 241, 0.2);
+
+
  }
 
 
 .img__ecommerce{
     width: 100%;
     height: 100%;
-    border-radius: 20px;
+    border-radius: 20px 20px 0 0;
+    padding: 1rem 1rem 0 1rem;
     
-    padding: 1rem 1rem;
+    
+    
+    
 }
 
 .text__projeto__home{
@@ -108,9 +109,8 @@
 .img__clinica{
     width: 100%;
     height: 100%;
-    
-    border-radius: 20px;
-    padding: 1rem 1rem;
+    border-radius: 20px 20px 0 0;
+    padding: 1rem 1rem 0 1rem;
     
 }
 
@@ -125,5 +125,107 @@
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
  }
+
+ 
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .projetos__home{
+        width: 100%;
+        
+    }
+    .container__img__ecommerce{
+        width: 400px;
+        height: 250px;
+        
+        
+     }
+    .container__img__clinica{
+        width: 400px;
+        height: 250px;
+        
+     }
+    
+    
+    .img__ecommerce{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen  and (min-width: 767px) and (max-width: 1024px) {
+
+    .projetos__home{
+        padding: 1.3rem 1.3rem;
+        margin-top: 4rem;
+        gap: 20px;
+    }
+    .projeto__ecommerce{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .icone__projeto__ecommerce{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .titulo__ecommerce{
+        margin: 0;
+        padding: 0;
+    }
+
+    .text__projeto__home{
+        width: 50%;
+
+    }
+    .container__img__ecommerce{
+        width: 50%;
+        
+        
+     }
+
+     .img__ecommerce{
+        height: 100%;
+
+     }
+    
+
+     .projeto__clinica{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row-reverse;
+        gap: 20px;
+    }
+
+    .icone_projeto__clinica{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .titulo__clinica{
+        margin: 0;
+        padding: 0;
+    }
+
+    .texto__projeto__clinica{
+        width: 50%;
+
+    }
+    .container__img__clinica{
+        width: 50%;
+        
+        
+     }
+
+}
+
 
  

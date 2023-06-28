@@ -4,7 +4,7 @@ footer {
     padding-top: 4rem;
     position: relative;
     margin-top: 2rem;
-    
+
 }
 
 .main__footer {
@@ -33,7 +33,8 @@ footer {
 
 
 }
-.atendimento{
+
+.atendimento {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -89,7 +90,7 @@ footer {
 .link__endereco {
     text-decoration: none;
     color: rgb(201, 201, 201);
-    
+
 }
 
 
@@ -98,32 +99,32 @@ footer {
     transition: all .5s;
 }
 
-.fale__conosco{
+.fale__conosco {
     margin-top: 3rem;
 }
 
-.titulo__fale__conosco{
+.titulo__fale__conosco {
     color: white;
 }
 
-.texto__fale__conosco{
+.texto__fale__conosco {
     display: flex;
     flex-direction: column;
     gap: 20px;
     margin-top: 2rem;
 }
 
-.texto__fale__conosco a{
+.texto__fale__conosco a {
     text-decoration: none;
     color: rgb(201, 201, 201);
 }
 
-.texto__fale__conosco a:hover{
+.texto__fale__conosco a:hover {
     color: rgb(0, 140, 255);
     transition: all .5s;
 }
 
-.explore{
+.explore {
     margin-top: 3rem;
 }
 
@@ -150,7 +151,7 @@ footer {
     transition: all .5s;
 }
 
-.nos__acompanhe{
+.nos__acompanhe {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -195,7 +196,8 @@ footer {
 .savant_logo_footer {
     width: 50px;
 }
-.texto__copyright{
+
+.texto__copyright {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -203,6 +205,41 @@ footer {
 }
 
 
-.span__savant__footer{
+.span__savant__footer {
     font-weight: 700;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .main__footer {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .atendimento {
+        width: fit-content;
+        margin: 0;
+        padding: 0;
+    }
+
+    .atendimento h2 {
+        font-weight: 600;
+    }
+
+    .fale__conosco {
+        margin: 0;
+
+    }
+
+
+
+    .explore {
+        margin: 0;
+        padding: 0;
+    }
+
+    .nos__acompanhe {
+        margin: 0;
+        padding: 0;
+    }
 }

@@ -37,16 +37,45 @@
     margin-top: 1rem;
 }
 
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .parte1{
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+    .container__texto__parte1 p{
+        width: 100%;
+        font-size: 1.1rem;
+    }
+
+    .titulo__parte1{
+        width: 100%;
+        font-size: 2.4rem;
+    }
+}
+
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .parte1{
         flex-direction: row;
-        padding: 0rem 2rem;
+        padding: 0 1.3rem;
+        margin-top: 2rem;
     }
 
     .container__texto__parte1{
         width: 70%;
+        
     }
     .container__texto__parte1 p{
         width: 90%;
+        font-size: 1.1rem;
+        line-height: 30px;
+    }
+
+    .titulo__parte1{
+        width: 100%;
+        font-size: 3rem;
+        line-height: 50px;
     }
 }

@@ -31,3 +31,28 @@
 .span__texto__quemsomos{
     color: var(--cor--h2--pagina);
 }
+
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .quem__somos{
+        margin-top: 5rem;
+    }
+    .texto__quemsomos{
+        width: 90%;
+        line-height: 45px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .quem__somos{
+        flex-direction: row;
+        margin-top: 7rem;
+        padding: 0 1.3rem;
+    }
+
+    .texto__quemsomos{
+        line-height: 45px;
+        
+    }
+}
+
+
