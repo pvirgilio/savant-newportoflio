@@ -6,6 +6,7 @@
 .texto__desenvolvimento__web {
     text-align: center;
     margin: 0 auto;
+    width: 100%;
 }
 
 .titulo__desenvolvimento__web {
@@ -19,6 +20,7 @@
     font-size: 2rem;
     font-weight: 600;
     margin: 1rem auto;
+    width: 100%;
 
 }
 
@@ -59,15 +61,7 @@
 
 }
 
-.card__desenvolvimento__web h2 {
-    text-align: left;
-    font-weight: 600;
-    font-size: 1.8rem;
-    line-height: 40px;
-    padding: 1rem 1.3rem 0 1.3rem;
-
-
-}
+.card__desenvolvimento__web h2 {}
 
 .subcontainer__card__desenvolvimento {
     display: flex;
@@ -101,8 +95,19 @@
 
 }
 
+.card__container__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .card__container__content h2 {
     color: #017bf3;
+    text-align: left;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 40px;
+    padding: 1rem 1.3rem 0 1.3rem;
 }
 
 
@@ -111,11 +116,11 @@
 @media screen and (min-width: 480px) and (max-width: 767px) {
 
     .subtitulo__desenvolvimento__web {
-        width: 80%;
+        width: 90%;
     }
 
     .paragrafo__desenvolvimento__web {
-        width: 60%;
+        width: 70%;
     }
 
     .card__desenvolvimento__web {
