@@ -1,0 +1,177 @@
+.projetos {
+  width: 100%;
+  margin: 5rem 0;
+  padding: 0 5rem;
+  height: 100%;
+}
+
+.container__cards__projetos__ {
+  display: flex;
+  flex-direction: column;
+}
+
+.container__cards__projetos__ .card__ecommerce__:last-child {
+  margin-top: 10rem;
+  flex-direction: row-reverse;
+}
+
+.card__ecommerce__ {
+  display: flex;
+  width: 100%;
+  gap: 40px;
+}
+
+.container__img__ecommerce__ {
+  width: 50%;
+}
+
+.img__fone {
+  width: 100%;
+}
+
+.text__ecommerce__ {
+  width: 50%;
+}
+
+.nome__ecommerce__ {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.paragrafo__ecommerce__ {
+  font-size: 18px;
+  color: gray;
+  font-weight: normal;
+  margin-top: 1rem;
+  line-height: 30px;
+  width: 70%;
+}
+
+.lista__ecommerce {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.vantagem__ecommerce {
+  width: 100%;
+  line-height: 25px;
+}
+
+.span__vantagens__ecommerce {
+  font-weight: bold;
+}
+
+.container__button__card__ecommerce {
+  background-color: blue;
+  color: white;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  padding: 0.8rem 1rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+  gap: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-out;
+}
+
+.button__card__ecommerce {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  gap: 10px;
+}
+
+.icon-open {
+  display: none;
+}
+
+.container__button__card__ecommerce:hover {
+  transition: all 0.3s ease-in;
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .projetos {
+    margin: 5rem 0;
+    padding: 0 1.3rem;
+    height: 100%;
+  }
+
+  .card__ecommerce__ {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .container__cards__projetos__ .card__ecommerce__:last-child {
+    margin-top: 5rem;
+    flex-direction: column;
+  }
+
+  .container__img__ecommerce__ {
+    width: 100%;
+  }
+
+  .text__ecommerce__ {
+    width: 100%;
+  }
+
+  .lista__ecommerce {
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .paragrafo__ecommerce__ {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .projetos {
+    margin: 5rem 0 10rem 0;
+    padding: 0 5rem;
+    height: 100%;
+  }
+
+  .container__cards__projetos__ {
+    gap: 50px;
+  }
+
+  .card__ecommerce__ {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 40px;
+  }
+
+  .container__cards__projetos__ .card__ecommerce__:last-child {
+    margin-top: 10rem;
+    flex-direction: column;
+  }
+
+  .container__img__ecommerce__ {
+    width: 100%;
+  }
+
+  .text__ecommerce__ {
+    width: 100%;
+  }
+
+  .lista__ecommerce {
+    padding: 0 2rem;
+  }
+
+  .paragrafo__ecommerce__ {
+    width: 100%;
+  }
+}
