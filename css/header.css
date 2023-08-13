@@ -76,11 +76,16 @@ header {
   width: 100%;
   text-decoration: none;
   color: black;
-
+  font-weight: bold;
   padding: 1rem 0;
 }
 
-.button_contato_header svg {
+.container_menu a:hover {
+  color: var(--span);
+  transition: all 0.3s;
+}
+
+.cont .button_contato_header svg {
   font-size: 40px;
 }
 
@@ -248,9 +253,7 @@ header {
     border-radius: 10px;
     gap: 5px;
     margin: 0;
-    padding: 0.5rem 0.5rem;
   }
-
   .button_contato_header a {
     font-weight: 500;
     width: fit-content;

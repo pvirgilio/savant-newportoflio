@@ -1,9 +1,6 @@
-
-
 function importHeaderFooter() {
-
-  const header = document.querySelector('header')
-  const footer = document.querySelector('footer')
+  const header = document.querySelector("header");
+  const footer = document.querySelector("footer");
   header.innerHTML = `
     <div class="logo_savant">
       <img class="img_logosavant" src="/img/SavantWeb.png" alt="" />
@@ -21,7 +18,7 @@ function importHeaderFooter() {
         <div class="linha_menu"></div>
         <a href="/index.html">Home</a>
         <div class="linha_menu"></div>
-        <a href="#">Sobre nós</a>
+        <a href="/pages/aboutus.html">Sobre nós</a>
         <div class="linha_menu"></div>
         <a href="/src/projetos.html">Projetos</a>
         <div class="linha_menu"></div>
@@ -42,7 +39,7 @@ function importHeaderFooter() {
         
 
         
-        `
+        `;
 
   footer.innerHTML = `
     <div class="main__footer">
@@ -143,33 +140,25 @@ function importHeaderFooter() {
     </div>
   </div>
     
-    `
-
+    `;
 }
 
-importHeaderFooter()
-
-
+importHeaderFooter();
 
 const btnMenu = document.getElementById("btnMenu");
 
-const containerMenu = document.getElementById("containerMenu")
+const containerMenu = document.getElementById("containerMenu");
 
-btnMenu.addEventListener('click', function () {
+btnMenu.addEventListener("click", function () {
   if (window.matchMedia("(max-width: 767px)")) {
-
-
-    if (containerMenu.style.display === 'none') {
-      containerMenu.style.overflow = 'hidden'
-      containerMenu.style.display = 'flex'
+    if (containerMenu.style.display === "none") {
+      containerMenu.style.overflow = "hidden";
+      containerMenu.style.display = "flex";
     } else {
-      containerMenu.style.display = 'none';
+      containerMenu.style.display = "none";
     }
   }
-
-})
-
-
+});
 
 function scrollToTop() {
   window.scrollTo({

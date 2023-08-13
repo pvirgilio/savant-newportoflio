@@ -1,0 +1,22 @@
+.maintenance {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.maintenance h1 {
+  font-weight: 500;
+}
+.img-maintenance {
+  width: 500px;
+}
+@media (max-width: 480px) {
+  .maintenance {
+    padding: 0 2rem;
+  }
+  .img-maintenance {
+    width: 400px;
+  }
+}
