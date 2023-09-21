@@ -96,10 +96,10 @@
 }
 @media (min-width: 1025px) and (max-width: 1455px) {
   .formulario-contato {
-    width: 60%;
+    width: 40%;
   }
   .contato-email {
-    width: 30%;
+    width: 100%;
     padding: 5rem 5rem;
   }
 }
