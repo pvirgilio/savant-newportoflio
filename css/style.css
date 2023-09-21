@@ -7,26 +7,23 @@
 @import url(./desenvweb.css);
 @import url(./entre-em-contato.css);
 @import url(./footer.css);
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
+@import url(./form-contato.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-body{
-    font-family: var(--fonte--principal);
-    
+body {
+  font-family: var(--fonte--principal);
 }
 
-:root{
-    --fonte--principal: 'Inter', sans-serif;
-    --cor--h2--pagina: #017bf3;
-    --span:#017bf3;
-    --tamanha--h2--padrao: 1.7rem;
+:root {
+  --fonte--principal: "Inter", sans-serif;
+  --cor--h2--pagina: #017bf3;
+  --span: #017bf3;
+  --tamanha--h2--padrao: 1.7rem;
 }
 
-main{
-    
+main {
 }

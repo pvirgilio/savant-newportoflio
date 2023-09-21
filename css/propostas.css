@@ -1,99 +1,95 @@
 .propostas {
-    padding: 1rem 1.3rem;
-    text-align: center;
-    margin-top: 2rem;
+  padding: 1rem 1.3rem;
+  text-align: center;
+  margin-top: 2rem;
 }
 
-
 .titulo__propostas {
-    text-transform: uppercase;
-    color: var(--cor--h2--pagina);
-    font-size: 0.8rem;
+  text-transform: uppercase;
+  color: var(--cor--h2--pagina);
+  font-size: 0.8rem;
 }
 
 .subtitulo__propostas {
-    font-weight: 600;
-    margin-top: 1rem;
-    line-height: 40px;
-    font-size: 2rem;
-
+  font-weight: 600;
+  margin-top: 1rem;
+  line-height: 40px;
+  font-size: 2rem;
 }
 
 .span__subtitulo__propostas {
-    color: var(--span);
-
+  color: var(--span);
 }
 
 .texto__propostas {
-    margin-top: 1rem;
-    font-size: 1rem;
-    color: rgb(80, 80, 80);
-    line-height: 25px;
-    font-weight: 500;
-    padding: 0 1rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: rgb(80, 80, 80);
+  line-height: 25px;
+  font-weight: 500;
+  padding: 0 1rem;
 }
-
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
-
-    .texto__propostas {
-        width: 80%;
-        margin: 0 auto;
-        margin-top: 1rem;
-        font-size: 1.1rem;
-    }
+  .texto__propostas {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+  }
 }
 
-
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    .propostas {
-        margin-top: 4rem;
-        padding: 0 8rem;
-    }
+  .propostas {
+    margin-top: 4rem;
+    padding: 0 8rem;
+    width: 100%;
+  }
 
-    .texto__propostas {
-        width: 50%;
-        margin: 0 auto;
-        margin-top: 1rem;
-        font-size: 1.1rem;
-        line-height: 30px;
-    }
+  .texto__propostas {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    line-height: 30px;
+    width: 100%;
+  }
 
-    .subtitulo__propostas {
-        width: 60%;
-        margin: 0 auto;
-        margin-top: 1rem;
-    }
+  .subtitulo__propostas {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
-    .subtitulo__propostas {
-        width: 60%;
-        margin: 0 auto;
-        margin-top: 1rem;
-    }
+  .subtitulo__propostas {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 1rem;
+  }
 
-    .texto__propostas {
-        width: 50%;
-        margin: 0 auto;
-        margin-top: 1rem;
-        font-size: 1.1rem;
-        line-height: 30px;
-    }
+  .texto__propostas {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    line-height: 30px;
+  }
 }
 
 @media screen and (min-width: 1281px) {
-    .subtitulo__propostas {
-        width: 60%;
-        margin: 1rem auto;
+  .subtitulo__propostas {
+    width: 60%;
+    margin: 1rem auto;
+  }
 
-    }
-
-    .texto__propostas {
-        width: 50%;
-        margin: 0 auto;
-        margin-top: 1rem;
-        font-size: 1.2rem;
-        line-height: 30px;
-    }
+  .texto__propostas {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    line-height: 30px;
+  }
 }

@@ -1,0 +1,114 @@
+.contato-email {
+  background: url(/img/backgroundfazemos.png);
+  margin-top: 3rem;
+  background-attachment: fixed;
+  background-position: center;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 5rem 8rem;
+  align-items: center;
+}
+
+.info-contato-email {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 700px;
+  width: 100%;
+}
+
+.title-contato-email {
+  color: var(--cor--h2--pagina);
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.subtitle-contato-email {
+  font-size: 2.5rem;
+}
+
+.text-contato-email {
+  line-height: 25px;
+}
+
+.formulario-contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  gap: 20px;
+  margin: 2rem 0;
+}
+
+.formulario-contato input,
+.formulario-contato textarea {
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 15px;
+  outline-color: var(--cor--h2--pagina);
+}
+
+.formulario-contato textarea {
+  resize: vertical;
+}
+
+.formulario-contato input,
+.formulario-contato textarea::placeholder {
+  font-family: var(--fonte--principal);
+}
+
+.btn-contato-email {
+  color: white;
+  background-color: #0609b3;
+  border: none;
+  cursor: pointer;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .formulario-contato {
+    width: 100%;
+  }
+
+  .subtitle-contato-email {
+    font-size: 2rem;
+  }
+  .contato-email {
+    width: 100%;
+    padding: 5rem 1.5rem;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .formulario-contato {
+    width: 80%;
+  }
+  .subtitle-contato-email {
+    font-size: 2rem;
+  }
+  .contato-email {
+    width: 100%;
+    padding: 5rem 5rem;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1455px) {
+  .formulario-contato {
+    width: 60%;
+  }
+  .contato-email {
+    width: 30%;
+    padding: 5rem 5rem;
+  }
+}
+@media (min-width: 2000px) {
+  .formulario-contato {
+    width: 30%;
+  }
+  .contato-email {
+    width: 100%;
+    padding: 5rem 5rem;
+  }
+}

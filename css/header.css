@@ -28,6 +28,8 @@ header {
 
 .menu {
   width: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .menu_button {
@@ -47,6 +49,7 @@ header {
   padding: 0 1rem;
   background-color: white;
   position: absolute;
+  align-items: center;
   left: 0;
   animation: abrirMenu 0.3s ease;
   animation: fecharMenu 0.3s ease forwards;
