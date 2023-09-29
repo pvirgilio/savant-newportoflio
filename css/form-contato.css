@@ -55,6 +55,7 @@
 
 .formulario-contato textarea {
   resize: vertical;
+  font-family: var(--fonte--principal);
 }
 
 .formulario-contato input,
