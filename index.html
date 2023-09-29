@@ -3914,13 +3914,13 @@
         <!-- Required -->
         <input type="hidden" name="replyTo" value="@" />
         <!-- Optional -->
-        <input type="text" name="name" id="" placeholder="Digite seu nome..." />
+        <input type="text" name="name" id="" placeholder="Digite seu nome..." required />
 
         <input type="text" id="telefone" oninput="formatarTelefone(this)" maxlength="15" name="$telefone"
           placeholder="Digite seu número: (XX) XXXXX-XXXX" pattern="\([0-9]{2}\) [0-9]{5}-[0-9]{4}" required>
 
-        <input type="email" name="email" id="" placeholder="Digite seu email..." />
-        <textarea name="message" id="" cols="30" rows="10" placeholder="Escreva sua mensagem..."></textarea>
+        <input type="email" name="email" id="" placeholder="Digite seu email..." required />
+        <textarea name="message" id="" cols="30" rows="10" placeholder="Escreva sua mensagem..." required></textarea>
         <input type="text" name="honeypot" style="display: none" />
         <input type="hidden" name="redirectTo" value="http://savantweb.netlify.app/pages/thanks.html" />
         <input type="submit" class="btn-contato-email" value="Enviar orçamento" />
