@@ -1,0 +1,4 @@
+Sitemap: https://savantweb.com.br/sitemap.xml
+
+User-agent: *
+Allow: /
