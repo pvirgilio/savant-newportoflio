@@ -1,403 +1,361 @@
 .projetos__home {
-    margin-top: 3rem;
-    padding: 1rem 1.3rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: left;
-
+  margin-top: 3rem;
+  padding: 1rem 1.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
 }
 
 .container__img__ecommerce {
-    margin: 0 auto;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(221, 221, 221);
-    border-radius: 10px;
-
-
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(221, 221, 221);
+  border-radius: 10px;
 }
 
-
 .img__ecommerce {
-    width: 100%;
-    height: 100%;
-    border-radius: 20px 20px 0 0;
-    padding: 1rem 1rem 0 1rem;
-
-
-
-
+  width: 100%;
+  height: 100%;
+  border-radius: 20px 20px 0 0;
+  padding: 1rem 1rem 0 1rem;
 }
 
 .text__projeto__home {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
 
 .titulo__ecommerce {
-    text-transform: uppercase;
-    color: var(--cor--h2--pagina);
-    font-size: 0.8rem;
-    margin-top: 1rem;
+  text-transform: uppercase;
+  color: var(--cor--h2--pagina);
+  font-size: 0.8rem;
+  margin-top: 1rem;
 }
 
 .subtitulo_ecommerce {
-    font-weight: 600;
-    margin-top: 1rem;
-    line-height: 40px;
-    font-size: 1.8rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  line-height: 40px;
+  font-size: 1.8rem;
+  text-wrap: balance;
 }
 
 .texto1__ecommerce {
-    margin-top: 1rem;
-    font-size: 1rem;
-    color: rgb(80, 80, 80);
-    line-height: 25px;
-    font-weight: 500;
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: rgb(80, 80, 80);
+  line-height: 25px;
+  font-weight: 500;
 }
 
 .texto2__ecommerce {
-    font-size: 1rem;
-    color: rgb(80, 80, 80);
-    font-weight: 300;
-    margin-top: 1rem;
-    line-height: 25px;
+  font-size: 1rem;
+  color: rgb(80, 80, 80);
+  font-weight: 300;
+  margin-top: 1rem;
+  line-height: 25px;
 }
 
 /* ------- Projeto Clínica ----------- */
 
 .projeto__clinica {
-    margin-top: 3rem;
+  margin-top: 3rem;
 }
 
 .texto__projeto__clinica {
-    margin-top: 1rem;
-    text-align: left;
+  margin-top: 1rem;
+  text-align: left;
 }
 
 .titulo__clinica {
-    text-transform: uppercase;
-    color: var(--cor--h2--pagina);
-    font-size: 0.8rem;
-    margin-top: 1rem;
+  text-transform: uppercase;
+  color: var(--cor--h2--pagina);
+  font-size: 0.8rem;
+  margin-top: 1rem;
 }
 
 .subtitulo__clinica {
-    line-height: 40px;
-    font-size: 1.8rem;
-    font-weight: 600;
-    margin-top: 1rem;
+  line-height: 40px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-top: 1rem;
 }
 
 .texto1__clinica {
-    margin-top: 1rem;
-    font-size: 1rem;
-    color: rgb(73, 73, 73);
-    line-height: 25px;
-    font-weight: 500;
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: rgb(73, 73, 73);
+  line-height: 25px;
+  font-weight: 500;
 }
 
 .texto2__clinica {
-    font-size: 1rem;
-    color: rgb(80, 80, 80);
-    font-weight: 300;
-    margin-top: 1rem;
-    line-height: 25px;
+  font-size: 1rem;
+  color: rgb(80, 80, 80);
+  font-weight: 300;
+  margin-top: 1rem;
+  line-height: 25px;
 }
 
 .img__clinica {
-    width: 100%;
-    height: 100%;
-    border-radius: 20px 20px 0 0;
-    padding: 1rem 1rem 0 1rem;
-
+  width: 100%;
+  height: 100%;
+  border-radius: 20px 20px 0 0;
+  padding: 1rem 1rem 0 1rem;
 }
 
 .container__img__clinica {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-    background-color: aliceblue;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: aliceblue;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-
 @media screen and (min-width: 480px) and (max-width: 767px) {
-    .projetos__home {
-        width: 100%;
+  .projetos__home {
+    width: 100%;
+  }
 
-    }
+  .container__img__ecommerce {
+    width: 400px;
+    height: 250px;
+  }
 
-    .container__img__ecommerce {
-        width: 400px;
-        height: 250px;
+  .container__img__clinica {
+    width: 400px;
+    height: 250px;
+  }
 
-
-    }
-
-    .container__img__clinica {
-        width: 400px;
-        height: 250px;
-
-    }
-
-
-    .img__ecommerce {
-        width: 100%;
-        height: 100%;
-    }
+  .img__ecommerce {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 @media screen and (min-width: 767px) and (max-width: 1024px) {
+  .projetos__home {
+    padding: 1.3rem 1.3rem;
+    margin-top: 4rem;
+    gap: 20px;
+  }
 
-    .projetos__home {
-        padding: 1.3rem 1.3rem;
-        margin-top: 4rem;
-        gap: 20px;
-    }
+  .projeto__ecommerce {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
 
-    .projeto__ecommerce {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 20px;
-    }
+  .icone__projeto__ecommerce {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+  }
 
-    .icone__projeto__ecommerce {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        gap: 10px;
-    }
+  .titulo__ecommerce {
+    margin: 0;
+    padding: 0;
+  }
 
-    .titulo__ecommerce {
-        margin: 0;
-        padding: 0;
-    }
+  .text__projeto__home {
+    width: 50%;
+  }
 
-    .text__projeto__home {
-        width: 50%;
+  .container__img__ecommerce {
+    width: 50%;
+  }
 
-    }
+  .img__ecommerce {
+    height: 100%;
+  }
 
-    .container__img__ecommerce {
-        width: 50%;
+  .projeto__clinica {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 20px;
+  }
 
+  .icone_projeto__clinica {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
 
-    }
+  .titulo__clinica {
+    margin: 0;
+    padding: 0;
+  }
 
-    .img__ecommerce {
-        height: 100%;
+  .texto__projeto__clinica {
+    width: 50%;
+  }
 
-    }
-
-
-    .projeto__clinica {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: row-reverse;
-        gap: 20px;
-    }
-
-    .icone_projeto__clinica {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-        gap: 10px;
-    }
-
-    .titulo__clinica {
-        margin: 0;
-        padding: 0;
-    }
-
-    .texto__projeto__clinica {
-        width: 50%;
-
-    }
-
-    .container__img__clinica {
-        width: 50%;
-
-
-    }
-
+  .container__img__clinica {
+    width: 50%;
+  }
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
-    .projetos__home {
-        padding: 1.3rem 8rem;
-        margin-top: 4rem;
-        gap: 20px;
-    }
+  .projetos__home {
+    padding: 1.3rem 8rem;
+    margin-top: 4rem;
+    gap: 20px;
+  }
 
-    .projeto__ecommerce {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 20px;
-        /* gap: 30px; */
+  .projeto__ecommerce {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    /* gap: 30px; */
+  }
 
-    }
+  .icone__projeto__ecommerce {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    order: 1;
+  }
 
-    .icone__projeto__ecommerce {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        gap: 10px;
-        order: 1;
-    }
+  .titulo__ecommerce {
+    margin: 0;
+    padding: 0;
+  }
 
-    .titulo__ecommerce {
-        margin: 0;
-        padding: 0;
-    }
+  .text__projeto__home {
+    width: 50%;
+  }
 
-    .text__projeto__home {
-        width: 50%;
+  .container__img__ecommerce {
+    width: 50%;
+  }
 
+  .img__ecommerce {
+    height: 100%;
+  }
 
-    }
+  .projeto__clinica {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 20px;
+  }
 
-    .container__img__ecommerce {
-        width: 50%;
+  .icone_projeto__clinica {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
 
+  .titulo__clinica {
+    margin: 0;
+    padding: 0;
+  }
 
-    }
+  .texto__projeto__clinica {
+    width: 50%;
+  }
 
-    .img__ecommerce {
-        height: 100%;
-
-    }
-
-
-    .projeto__clinica {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: row-reverse;
-        gap: 20px;
-    }
-
-    .icone_projeto__clinica {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-        gap: 10px;
-    }
-
-    .titulo__clinica {
-        margin: 0;
-        padding: 0;
-    }
-
-    .texto__projeto__clinica {
-        width: 50%;
-
-    }
-
-    .container__img__clinica {
-        width: 50%;
-
-
-    }
+  .container__img__clinica {
+    width: 50%;
+  }
 }
 
 @media screen and (min-width: 1281px) {
-    .projetos__home {
-        padding: 1.3rem 8rem;
-        margin-top: 4rem;
-        gap: 40px;
-    }
+  .projetos__home {
+    padding: 1.3rem 8rem;
+    margin-top: 4rem;
+    gap: 40px;
+  }
 
-    .projeto__ecommerce {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 20px;
-    }
+  .projeto__ecommerce {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
 
-    .icone__projeto__ecommerce {
-        display: flex;
-        align-items: left;
-        justify-content: center;
-        flex-direction: column;
-        gap: 10px;
-    }
+  .icone__projeto__ecommerce {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+  }
 
-    .titulo__ecommerce {
-        margin: 0;
-        padding: 0;
-    }
+  .titulo__ecommerce {
+    margin: 0;
+    padding: 0;
+  }
 
-    .text__projeto__home {
-        width: 500px;
+  .text__projeto__home {
+    width: 500px;
+  }
 
-    }
+  .texto1__ecommerce,
+  .texto1__ecommerce {
+    font-size: 1.2rem;
+  }
 
-    .texto1__ecommerce,
-    .texto1__ecommerce {
-        font-size: 1.2rem;
-    }
+  .container__img__ecommerce {
+    max-width: 500px;
+    margin: 0;
+  }
 
-    .container__img__ecommerce {
-        max-width: 500px;
-        margin: 0;
+  .img__ecommerce {
+    height: 100%;
+  }
 
+  .projeto__clinica {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 40px;
+  }
 
-    }
+  .icone_projeto__clinica {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
 
-    .img__ecommerce {
-        height: 100%;
+  .titulo__clinica {
+    margin: 0;
+    padding: 0;
+  }
 
-    }
+  .texto__projeto__clinica {
+    width: 500px;
+  }
 
+  .texto1__clinica,
+  .texto1__clinica {
+    font-size: 1.2rem;
+  }
 
-    .projeto__clinica {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: row-reverse;
-        gap: 40px;
-    }
-
-    .icone_projeto__clinica {
-        display: flex;
-        align-items: left;
-        flex-direction: column;
-        justify-content: center;
-        gap: 10px;
-    }
-
-    .titulo__clinica {
-        margin: 0;
-        padding: 0;
-    }
-
-    .texto__projeto__clinica {
-        width: 500px;
-
-    }
-
-    .texto1__clinica,
-    .texto1__clinica {
-        font-size: 1.2rem;
-    }
-
-    .container__img__clinica {
-        max-width: 500px;
-        margin: 0;
-
-
-    }
+  .container__img__clinica {
+    max-width: 500px;
+    margin: 0;
+  }
 }
