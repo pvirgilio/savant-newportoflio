@@ -117,13 +117,8 @@
 
   .card__ecommerce__ {
     display: flex;
-    flex-direction: column;
+    flex-direction: column !important;
     width: 100%;
-  }
-
-  .container__cards__projetos__ .card__ecommerce__:last-child {
-    margin-top: 5rem;
-    flex-direction: column;
   }
 
   .container__img__ecommerce__ {
@@ -144,6 +139,12 @@
 
   .paragrafo__ecommerce__ {
     width: 100%;
+  }
+
+  .button__card__ecommerce {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
   }
 }
 
