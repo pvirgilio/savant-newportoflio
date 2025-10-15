@@ -8,10 +8,10 @@
 .container__cards__projetos__ {
   display: flex;
   flex-direction: column;
+  gap: 5rem;
 }
 
-.container__cards__projetos__ .card__ecommerce__:last-child {
-  margin-top: 10rem;
+.card__ecommerce__:nth-child(even) {
   flex-direction: row-reverse;
 }
 
@@ -44,7 +44,7 @@
   font-weight: normal;
   margin-top: 1rem;
   line-height: 30px;
-  width: 70%;
+  width: 100%;
 }
 
 .lista__ecommerce {
@@ -63,7 +63,7 @@
   font-weight: bold;
 }
 
-.container__button__card__ecommerce {
+/* .container__button__card__ecommerce {
   background-color: blue;
   color: white;
   width: fit-content;
@@ -76,15 +76,26 @@
   cursor: pointer;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease-out;
-}
+} */
 
 .button__card__ecommerce {
-  color: white;
   text-decoration: none;
   display: flex;
   align-items: center;
   font-weight: bold;
   gap: 10px;
+  background-color: blue;
+  color: white;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  padding: 0.8rem 1rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+  gap: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-out;
 }
 
 .icon-open {
