@@ -193,6 +193,18 @@ footer {
   font-weight: 700;
 }
 
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .texto__copyright {
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .texto__copyright p {
+    text-align: center;
+    text-wrap: balance;
+  }
+}
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .main__footer {
     flex-direction: row;

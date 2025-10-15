@@ -11,11 +11,13 @@ header {
   align-items: center;
   width: 200px;
   gap: 2px;
+  text-decoration: none;
 }
 
 .nome_savant {
   font-size: 1.7rem;
   font-weight: 600;
+  color: #000;
 }
 
 .img_logosavant {
